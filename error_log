@@ -1,0 +1,34 @@
+[27-May-2019 12:42:37 Europe/Madrid] PHP Warning:  require(/home/motoblo1/motoblockchain.us/../vendor/autoload.php): failed to open stream: No such file or directory in /home/motoblo1/motoblockchain.us/index.php on line 24
+[27-May-2019 12:42:37 Europe/Madrid] PHP Fatal error:  require(): Failed opening required '/home/motoblo1/motoblockchain.us/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/motoblo1/motoblockchain.us/index.php on line 24
+[27-May-2019 12:43:34 Europe/Madrid] PHP Warning:  require(/home/motoblo1/motoblockchain.us/../vendor/autoload.php): failed to open stream: No such file or directory in /home/motoblo1/motoblockchain.us/index.php on line 24
+[27-May-2019 12:43:34 Europe/Madrid] PHP Fatal error:  require(): Failed opening required '/home/motoblo1/motoblockchain.us/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/motoblo1/motoblockchain.us/index.php on line 24
+[27-May-2019 12:43:38 Europe/Madrid] PHP Warning:  require(/home/motoblo1/motoblockchain.us/../vendor/autoload.php): failed to open stream: No such file or directory in /home/motoblo1/motoblockchain.us/index.php on line 24
+[27-May-2019 12:43:38 Europe/Madrid] PHP Fatal error:  require(): Failed opening required '/home/motoblo1/motoblockchain.us/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/motoblo1/motoblockchain.us/index.php on line 24
+[28-May-2019 12:47:38 UTC] PHP Fatal error:  Cannot use Datatables as Datatables because the name is already in use in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 11
+[29-May-2019 07:12:21 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /home/motoblo1/public_html/app/Http/Middleware/RedirectIfAuthenticated.php on line 7
+[31-May-2019 09:52:06 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:52:20 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:52:59 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:53:01 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:53:02 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:53:03 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:53:12 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:53:48 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:55:03 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:55:05 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:55:35 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:56:46 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:56:57 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 09:59:59 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:00:02 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:00:05 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:00:05 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:00:17 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:00:20 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:01:07 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:01:10 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:01:48 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:02:31 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:04:41 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:08:12 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128
+[31-May-2019 10:08:57 UTC] PHP Fatal error:  Can't use method return value in write context in /home/motoblo1/public_html/app/Http/Controllers/Admin/AdminController.php on line 128

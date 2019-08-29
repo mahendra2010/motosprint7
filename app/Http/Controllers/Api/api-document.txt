@@ -1,0 +1,46 @@
+Add Media :-
+
+Request :-
+
+URL : http://motoblockchain.us/api/add_photo
+
+Request Form Data :-
+
+v_code:1.0
+apikey:fbb36f24d9b3985aa86fa37fd51c29eb
+token:bbaebb1f33389a600221b2afe0698a16
+deviceType:Android
+deviceID:1234567890
+device_token:fbb36f24d9b3985aa86fa37fd51c29ebfbb36f24d9b3985aa86fa37fd51c29eb
+userid:20
+product_id:12
+type:invoice
+title:this is media title
+description:media_description
+media:attach media.
+
+response:-
+
+{
+    "successBool": true,
+    "successCode": "200",
+    "responseType": "add_media",
+    "response": {
+        "message": "Media File Uploaded Successfully..",
+        "data": {
+            "media_id": 1,
+            "user_id": "20",
+            "product_id": "12",
+            "category": "invoice",
+            "title": "this is media title",
+            "description": "media_description",
+            "media_type": "jpeg",
+            "file": "http://motoblockchain.us/public/images/20/12/ab1387c2587f21fb3c8bdab65f6556be862b4b9a510c043c967f8b3c89a5ae8b.jpeg",
+            "hash_code": "ab1387c2587f21fb3c8bdab65f6556be862b4b9a510c043c967f8b3c89a5ae8b"
+        }
+    },
+    "ErrorObj": {
+        "ErrorCode": "",
+        "ErrorMsg": ""
+    }
+}

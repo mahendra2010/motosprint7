@@ -1,0 +1,119 @@
+  .automobile-bordercolor, .automobile-bordercolorhover:hover, .automobile-blog-social ul li:hover a, .widget-contact-btn, .automobile-banner-btn, .automobile-listing-toggle .btn-primary.collapsed, .automobile-appointment-form form ul li label input[type="submit"], .automobile-listing-list2 .automobile-check.widget-check label::before, .automobile-comingsoon-text h2 strong, .automobile-comparsion-accordion .automobile-feature-btn, .automobile-vehicle-text-form form ul li input[type="text"]:focus, .automobile-check.widget-check input[type="checkbox"]:checked + label:before, #slider-range2 span:before, .automobile-priceplan-btn, .automobile-listing-like li:first-child:before, .widget_range input[type="submit"], .automobile-about-services-text .automobile-about-readmore, .automobile-dealer-contact-btn, .automobile-read-btn {
+    border-color: #fa6a2f;
+}
+.automobile-bgcolor, .automobile-bgcolorhover:hover, .widget_recent_listing figure > a:before, .automobile-read-btn, .widget_trading_post figure a:before, .automobile-classic-blog figure a:before, .widget_auto_repair figure a:before, .automobile-pagination > ul > li:hover > a, .automobile-cart-box, .automobile-shop-grid figure a:before, .automobile-shop-grid figure a:after, .automobile-shop-grid figure > span, .automobile-shop-list figure > span, .automobile-images-thumb-layer small, .automobile-shop-list figure a:before, .automobile-shop-list figure a:after, .submit input[type="submit"], .automobile-dealer-contact-btn, .automobile-listing-grid-text > ul > li:first-child, .automobile-listing-toggle .btn-primary.collapsed, .automobile-simple-btn li a, .automobile-listing-grid figure > span.featured, .automobile-widget-select:after, .automobile-listing-list-text > ul > li:first-child, .automobile-learn-btn, .automobile-listing-list figure > span.featured, .widget_popular_car figure a:before, .automobile-typography-accordion .panel-title > a:before, .automobile-call-to-action1 > a, .typography-toggle:before, .automobile-typography-listing ul.automobile-list-five li:before, .automobile-archive-list ul li figure a:before, .automobile-fancy-title h2 > span:before, .automobile-fancy-title h2 > span:after, .automobile-about-services-list i:after, .automobile-classic-team figure a:before, .automobile-blog-medium figure a:before, .widget_account_links ul li.logout a, .automobile-favorite-list-text ul li:first-child, .automobile-testimonial-wrap .slick-arrow:hover, .automobile-appointment-form form ul li label input[type="submit"], .automobile-banner-text:before, .automobile-banner-text:after, .automobile-banner-form form ul li input[type="submit"], .automobile-car-deals figure > span, .automobile-tour-filterable ul li a:before, .automobile-contact-us-text ul li i, .contact-btn input[type="submit"], .automobile-comingsoon-text form input[type="submit"], .automobile-fancy-title h3 strong:before, .automobile-car-feature li:hover .automobile-feature-btn, .automobile-vehile-photo-post form input[type="file"], .automobile-vehile-photo-post form label input[type="submit"], .date-of-birth i, .automobile-faq-tabs .nav-tabs > li.active a:before, .automobile-shop-tabs .nav-tabs > li.active > a, .automobile-shop-tabs .nav-tabs > li.active > a:hover, .automobile-shop-tabs .nav-tabs > li.active > a:focus, .widget_range input[type="submit"], .automobile-typography-tabs .nav-tabs > li.active > a, .automobile-typography-tabs .nav-tabs > li.active > a:hover, .automobile-typography-tabs .nav-tabs > li.active > a:focus, .automobile-typography-tour-tabs .nav-tabs > li.active > a, .automobile-typography-tour-tabs .nav-tabs > li.active > a:hover, .automobile-typography-tour-tabs .nav-tabs > li.active > a:focus, .automobile-priceplan-btn, .automobile-banner-tabs .nav-tabs > li.active > a, .automobile-banner-tabs .nav-tabs > li.active > a:hover, .automobile-banner-tabs .nav-tabs > li.active > a:focus, .automobile-vehile-photo-post input[type="submit"], .automobile-select-full-width:before, .automobile-account-profile form ul li input[type="submit"], .automobile-account-user-text label.file-uplode span, .widget-finance-checkbox input[type="checkbox"]:checked + label, .automobile-banner-text3 h1:before, .automobile-banner-text3 h1:after, .automobile-listing-list2 figure > a:before {
+    background-color: #fa6a2f;
+}
+  .widget_search form input[type="text"]{border: 0;}
+  .widget_search form > label:last-child{top: 23px;}
+  .widget_trading_post figure{position: relative;}
+  .widget_newsletter form input[type="text"], .comment-respond form p input[type="text"], .comment-respond form p input[type="email"], .automobile-full-form textarea{border: 1px solid #ccc;}
+  form p {float: left;position: relative;}
+  /* Click the image one by one to see the different layout */
+
+/* Owl Carousel */
+
+.owl-prev {
+  background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+  height: 54px;
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  z-index: 1000;
+  left: 2%;
+  cursor: pointer;
+  color: transparent;
+  margin-top: -27px;
+}
+
+.owl-next {
+  background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+  height: 54px;
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  z-index: 1000;
+  right: 2%;
+  cursor: pointer;
+  color: transparent;
+  margin-top: -27px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  opacity: 0.5;
+}
+
+
+/* Owl Carousel */
+
+
+/* Popup Text */
+
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.popuptext {
+  display: table;
+}
+.popuptext p {
+  margin-bottom: 10px;
+}
+.popuptext span {
+  font-weight: bold;
+  float: right;
+}
+/* Popup Text */
+
+/* Icon CSS */
+.item {
+  position: relative;
+}
+.item i {
+  display: none;
+  font-size: 1.6rem;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.item a {
+  display: block;
+  width: 100%;
+}
+.item a:hover:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.item a:hover i {
+  display: block;
+  z-index: 2;
+}
+img {
+max-width: 100% !important;
+height: 100% !important;
+}
+
+#header .logo a > img {
+    max-width: 185px !important;
+    height: auto !important;
+    transition: all ease-in-out .5s;
+}
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close{outline: none;}
+.owl-carousel .owl-nav .owl-prev{left: 10px; font-size: 0px; border: 0px;}
+.owl-carousel .owl-nav .owl-next{right: 10px; border: 0px; font-size: 0px;}
+.owl-carousel .owl-item img{min-height: 127px;}
+.owl-carousel .owl-nav{bottom: 60px;position: relative;display: block !important;}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="{{ url('/')}}/public/frontend/images/fevi.png" sizes="16x16">
+<title>{{$blogs->title}} |Motoblockchain</title>
+ <!-- font -->
+ <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- bootstrap cdn css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ url('/')}}/public/frontend/css/style.css">
+<link rel="stylesheet" href="{{ url('/')}}/public/frontend/css/animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+<style type="text/css">
+  .travel-area {
+    background: #f9f9ff;
+  }
+  .section-gap {
+    padding: 120px 0;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .single-travel img {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .single-travel .dates {
+    background: #222222ab;
+    color: #fff;
+    padding: 18px 24px;
+    position: absolute;
+    margin: 18px;
+  }
+  .single-travel .dates span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .single-travel .dates p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .single-travel h4 {
+    margin-bottom: 12px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .single-travel img:hover {
+    transform: scale(1.1);
+  }
+
+  .load-more:hover {
+    background: transparent;
+    border: 1px solid #69b4fd;
+    color: #69b4fd;
+  }
+  .pbtn-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .primary-btn {
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    background-image: -webkit-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+    background-image: -ms-linear-gradient(45deg, #62bdfc 0%, #8490ff 100%);
+  }
+  .mt-60 {
+    margin-top: 60px;
+  }
+  .btn-hover{width: 110px;font-size: 11px;line-height: 34px;margin: 0px;height: 34px;border-radius: 4px;}
+</style>
+</head>
+<body class="animated fadeIn">
+<!-- header start -->
+     @include('common.header')
+<!-- header close -->
+
+<section class="travel-area section-gap" id="travel">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-5">
+        <div class="title text-center">
+          <h1 pb-70>{{$blogs->title}}</h1>
+         
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-lg-12 travel-left">
+        <div class="single-travel media pb-70">
+
+          <img  style="width:100%; max-height:400px; object-fit:cover" class="img-fluid d-flex" src="{{ url('/')}}/public/images/blog_images/{{ $blogs->id }}/{{$blogs->blog_img}}" alt="{{$blogs->title}}" />
+          <div class="dates"><span>{{ date(' jS ', strtotime($blogs->created_at) )	 }} </span><p>{{ date('F', strtotime($blogs->created_at) )	 }} </p></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            
+       
+        <div class="media-body align-self-center blog_bodyText">
+            <h4 class="mt-0"><a href="{{ url('/blog-description'.'/'.$blogs->slug)}}">{{$blogs->title}}</a></h4>
+            <?php echo $blogs->blog_content; ?>
+          </div>
+    </div>
+    </div>
+    <!--Slider-->
+    
+  </div>
+</section>
+
+<section class="testimonials wow fadeInDown">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                  <h2 style="color:#000" class="sectionHeading">Gallery</h2>
+                </div>
+            </div>
+          <div class="row mt-5">
+            <div class="col-sm-12">
+              <div id="customers-testimonials" class="owl-carousel">
+    
+                <?php
+                if(count($blog_gallery) > 0)
+                {
+                    foreach($blog_gallery as $gallery)
+                    {
+                        
+                        ?>
+                        <div class="item">
+                          <div class="shadow-effect">
+                            <img class="img-responsive " src="{{ url('/') }}/public/images/blog_images/{{ $gallery->blog_id }}/{{ $gallery->img_name }}" style="min-height: 277px; object-fit: cover;" alt="">
+                            <div class="item-details">
+                                    
+                            </div>
+                          </div>
+                        </div>
+                       
+                        <?php
+                    }
+                    foreach($blog_gallery as $gallery)
+                    {
+                        
+                        ?>
+                        <div class="item">
+                          <div class="shadow-effect">
+                            <img class="img-responsive " src="{{ url('/') }}/public/images/blog_images/{{ $gallery->blog_id }}/{{ $gallery->img_name }}" style="min-height: 277px; object-fit: cover;" alt="">
+                            <div class="item-details">
+                                    
+                            </div>
+                          </div>
+                        </div>
+                       
+                        <?php
+                    }
+                    
+                }else{
+                    
+                }
+                    
+                ?>
+                
+                <!--END OF Last added products 1 -->
+                <!--TESTIMONIAL 2 -->
+                <!--<div class="item">
+                  <div class="shadow-effect">
+                    <img class="img-responsive " src="{{ url('/')}}/public/frontend/images/image-2.png" alt="">
+                    <div class="item-details">
+                            
+                    </div>
+                  </div>
+                </div>-->
+                <!--END OF TESTIMONIAL 2 -->
+                
+                <!--END OF TESTIMONIAL 3 -->
+                
+              </div>
+
+
+            </div>
+          </div>
+          
+        </section>
+
+<!-- footer start -->
+    @include('common.footer')
+<!-- footer close -->
+
+
+</body>
+</html>
